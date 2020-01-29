@@ -1,1 +1,688 @@
-"Hello World" 
+<!DOCTYPE html>
+<html lang="en">
+<!-- <meta name=”viewport” content=”width=device-width, initial-scale=1.0″> -->
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Shyam Kannan">
+    <meta name="author" content="Shyam Kannan">
+
+    <title>Shyam Sundar Kannan</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <!--<link href="css/grayscale.css" rel="stylesheet" title="default">-->
+    <link href="css/grayscale_white2.css" rel="stylesheet" title="default">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','../www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-63177134-1', 'auto');
+      ga('send', 'pageview');
+
+  </script>
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <i class="fa fa-chevron-circle-up"></i> HOME
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#news">News</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#research">Research</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#industry">Industry</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#blog">Blog</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                      <!--<div class="rein-intro-bg "style="margin-top:450px; width: 700px; margin-left: auto; margin-right: auto; border-radius: 30px; background: rgba(0,0,0,0.5">-->
+                      <div class="rein-intro-bg "style="margin-top:250px; margin-left: auto; margin-right: auto; border-radius: 30px; background: rgba(0,0,0,0.5">
+                          <br>
+                          <h1 class="brand-heading" style="color:#33cc33">Shyam Sundar Kannan</h1>								
+                          <p class="intro-text">Researcher in Robotics <br>and Machine Learning</p>			
+                          <a href="mailto:kannan9@purdue.edu" target="_top" class="fa fa-envelope"></a>
+                          <a href="http://github.com/amolchanov86" target="_blank" class="fa fa-github"></a>
+                          <a href="https://www.linkedin.com/in/artem-molchanov-7153986a/" target="_blank" class="fa fa-linkedin"></a>
+                          <br><br>
+                          <!-- <a href="http://www.youtube.com/user/MrLolu28" target="_blank" class="fa fa-youtube"></a>   		 -->
+                      </div>
+                      <a href="#about" class="btn btn-circle page-scroll" style="margin-top:10px; color:#33cc33">
+                        <i class="fa fa-angle-double-down animated"></i>
+                      </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- About Section -->
+<section id="about" class="content-section text-center">
+
+  <div class="container">
+      <div class="col-lg-8 col-lg-offset-2 text-justify">
+          <!-- <img src="img/molchanov_0.jpg" class="img-circle img-me"/>			 -->
+          <h2 class="text-center text-padded" style="margin-top:-60px">About</h2>
+          <p>
+
+            I'm a Ph.D candidate in the <a href="https://robotics.usc.edu/resl/" target="_blank">Robotics Embedded Systems Laboratory (RESL)</a> at the <a href="https://www.usc.edu/" target="_blank">University of Southern California</a> advised by <a href="http://robotics.usc.edu/~gaurav/">Gaurav Sukhatme</a>.
+            <br><br>
+
+            My research interests are focused on systems that have to operate and adapt under sparse, noisy and incomplete information. 
+            Most relevant to robotics, this scenario requires careful leveraging of indirect sources of information to make intelligent decisions, such as priors acquired through simulation, additional sensors indirectly (nontrivially) measuring relevant quantities, communication with other agents, different indicators of task progression. 
+            Lately I have been working in the areas of reinforcement and imitation learning, where I am investigating learning under sparse rewards and a sample efficient adaptation to new tasks by combining simulation, automatic task curriculum and meta learning. 
+            I applied my research to a variety of platforms including robotic arms, underwater vehicles and autonomous cars.
+            A more broad overview of my latest research direction can be found <a href="pdf/artem_research_overview.pdf" target="_blank">here</a>.
+            <br><br>
+
+
+            During my Ph.D program at RESL I did a number of internships at:<br> 
+            
+            <a href="https://www.nvidia.com/en-us/research/">Nvidia</a> (Summer, 2017) where I was part of the Learning & Perception Research team lead by <a href="https://research.nvidia.com/person/jan-kautz">Jan Kautz</a> and collaborated with <a href="https://research.nvidia.com/person/stan-birchfield"">Stan Birchfield</a> and <a href="https://www.linkedin.com/in/jtremb/">Jonathan Tremblay</a> working on the project of curriculum learning for RL and the project on <a href="https://www.youtube.com/watch?v=B7ZT5oSnRys">learning human-readable plans from demonstrations</a>; <br>
+            
+            <a href="http://www.vwerl.com/">Volkswagen Electronics Research Lab</a> (Summer, 2016) with the research team lead by <a href="https://www.linkedin.com/in/lutz-junge-043879114/">Lutz Junge</a> and collaborated with <a href="https://www.linkedin.com/in/premavn/">Premkumar Natarajan</a> while working on neural network compression;<br>
+            
+            <a href="http://www.bluerivertechnology.com/">Blue River Technology</a> (Summer, 2015) where I worked under supervision of <a href="https://www.linkedin.com/in/marci-meingast-7125476/">Marci Meingast</a> on improving a vision system of the <a href="https://www.youtube.com/watch?v=jL4kcrumHA8">lettuce thinning bot</a> using deep learning.
+            <br>             
+
+            Besides that, together with <a href="https://www.linkedin.com/in/vadim-butakov-87244472/">Vadim Butakov</a> and <a href="https://www.linkedin.com/in/simpsonite/">Rob Simpson</a>, I worked on a startup called <a href="https://www.youtube.com/watch?v=sqMXLjjKQmA">Swerve.ai</a> targeting improvement of safety in autonomous driving by enabling handling at the limits of friction.
+            <br><br>
+
+            I studied Mechanical and Electrical Engineering at <a href="http://www.bmstu.ru/en/">Bauman Moscow State Technical University (BMSTU)</a> and Computer Science at the <a href="https://www.usc.edu/"">University of Southern California (USC)</a>. 
+            In May 2010, I graduated cum laude obtaining Master of Engineering degree at BMSTU.
+            In May 2015, I received Master of Computer Science degree from USC where I am continuing my Ph.D.
+
+
+            <!--A complete CV can be found <a href="molchanov_cv_full.pdf" target="_blank">here</a>. -->
+</p>
+</div>
+</div>
+
+<ul class="list-inline banner-social-buttons text-center">
+    <li>
+      <a href="molchanov_cv.pdf#zoom=100" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-file-pdf-o fa-fw"></i> <span class="network-name">Curriculum Vitae</span></a><!--<a href="cv.pdf#zoom=100" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-file-pdf-o fa-fw"></i> <span class="network-name">Curriculum Vitae</span></a>-->
+  </li>
+</ul>
+
+</section>
+
+<!-- News Section -->
+<section id="news" class="container content-section text-center">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+            <h2>News</h2>
+            <ul class="left-text">
+            <li>
+                <p><b>[04/2019]</b> Our work on <a href="https://sites.google.com/view/sim-to-multi-quad" target="_blank">Sim-to-(Multi)-Real transfer for quadrotors</a> was selected for a spotlight presentation in the <a href="http://scr2019.caltech.edu/" target="_blank">SoCal Robotics Symposium</a>.
+            </li>
+            <li>
+                <p><b>[04/2019]</b> Today my student and collaborator <a href="https://taochenosu.github.io/" target="_blank">Tao Chen</a> was selected for receiving 2019 Viterbi Master’s Award for achievements in research. Tao is a co-author with me on the project of <a href="https://sites.google.com/view/sim-to-multi-quad" target="_blank">Sim-to-(Multi)-Real transfer for quadrotors</a>. It is a very rewarding feeling for me as a mentor. Good job, Tao!
+            </li>
+            <li>
+                <p><b>[07/2018]</b> I ran my first full marathon in San Francisco within 4h:06m.</p>
+            </li>
+            <li>
+                <p><b>[05/2018]</b> I successfully passed my Ph.D qualifying exam at USC. Thank you to all my committee members: <a href="http://robotics.usc.edu/~gaurav/" target="_blank">Gaurav Sukhatme</a>, <a href="http://www-clmc.usc.edu/~sschaal/" target="_blank">Stefan Schaal</a>, <a href="http://www-bcf.usc.edu/~limjj/" target="_blank">Joseph Lim</a>, <a href="https://viterbi.usc.edu/directory/faculty/Culbertson/Heather" target="_blank">Heather Culbertson</a> and <a href="http://ruk.usc.edu/bio/gupta/" target="_blank">S.K. Gupta</a>. </p>
+            </li>
+        </ul>
+    </div>
+</div>
+</section>
+
+
+<!-- News Section -->
+<section id="research" class="content-section text-center">
+    <div class="container">
+        <div class="col-lg-8 col-lg-offset-2 text-left">
+            <h2 class="text-center">Research</h2>
+            <br>
+
+        <ul class="list-inline banner-social-buttons text-center">
+            <li>
+                <a href="https://scholar.google.com/citations?hl=en&user=HGZCqPoAAAAJ" class="btn btn-default btn-lg"><i class="fa fa-google fa-fw"></i> <span class="network-name">Google Scholar</span></a>
+            </li>
+        </ul>
+        <br><br>
+
+
+<!-- 
+PERCEPTION:
+PAPERS:
+\\
+\\
+\textbf{A. Molchanov}, O. Kroemer , Z. Su, G. S. Sukhatme.
+Contact localization on grasped objects using tactile sensing.
+Intelligent Robots and Systems (IROS), 2016 IEEE/RSJ International, 2016.
+\\
+\\
+Z. Su, K. Hausman, Y. Chebotar, \textbf{A. Molchanov}, G. E. Loeb, G. S. Sukhatme.
+Force Estimation and Slip Detection for Grip Control using a Biomimetic Tactile Sensor.
+Proceedings of the International Conference on Humanoid Robots, Seoul, Korea, 2015.
+\\
+\\
+J. Tremblay, T. To, \textbf{A. Molchanov}, S. Tyree, J. Kautz, S. Birchfield.
+Synthetically Trained Neural Networks for Learning Human-Readable Plans from Real-World Demonstrations.
+2018 IEEE International Conference on Robotics and Automation (ICRA), Brisbane, Australia, May 21-25, 2018.
+\\
+\\
+
+CONTROL:
+PAPERS:
+\textbf{A. Molchanov}, A. Breitenmoser, G. S. Sukhatme.
+Active drifters: Towards a practical multi-robot system for ocean monitoring.
+2015 IEEE International Conference on Robotics and Automation (ICRA), 545-552, 2015.
+
+S. Subbaraya, A. Breitenmoser, \textbf{A. Molchanov}, J. Muller, C. Oberg, D. A. Caron.
+Circling the Seas: Design of Lagrangian Drifters for Ocean Monitoring.
+IEEE Robotics and Automation Magazine 23 (4), 42-53, 2016.
+
+
+\textbf{A. Molchanov}, K. Hausman, S. Birchfield, G. S. Sukhatme.
+Region Growing Curriculum Generation for Reinforcement Learning.
+In submission to 27-th International Joint Conference on Artificial Intelligence (IJCAI), 2018. 
+\\
+\\
+-->
+
+<h3>
+    Reinforcement & Imitation Learning
+</h3>
+
+<table class="entry">
+
+    <tr>
+        <th>
+            <img width="170" src="img/thumbnails/three_quadrotors_joined_thumb.jpg" class="rein-paper"/>
+        </th>
+        <th class="entry">
+
+            <a href="https://arxiv.org/abs/1903.04628">Sim-to-(Multi)-Real: Transfer of Low-Level Robust Control Policies to Multiple Quadrotors</a>
+            <br>2019<br>
+            <small class="authors">
+                A. Molchanov, T. Chen, W. H&ouml;nig, J. Preiss, N. Ayanian, G. Sukhatme 
+            </small>
+            <br>
+            <ul class="list-inline list-inline-x text-left">
+                <!-- <li>
+                    <a href="bibtex/molchanov18arxiv.bib" target="_blank" class="btn-x btn-default-x btn-lg-x"><i class="fa fa-file-text-o fa-fw"></i> <span class="network-name">bibtex</span></a>
+                </li> -->
+                <li>
+                    <a href="https://arxiv.org/abs/1903.04628" target="_blank" class="btn-x btn-default-x btn-lg-x"><i class="fa fa-file-pdf-o fa-fw"></i> <span class="network-name">pdf</span></a>
+                </li>
+                <li>
+                    <a href="https://youtu.be/Rkj1_gwrtAg" target="_blank" class="btn-x btn-default-x btn-lg-x"><i class="fa fa-video-camera fa-fw"></i> <span class="network-name">video</span></a>
+                </li>
+                <li>
+                    <a href="https://sites.google.com/view/sim-to-multi-quad" target="_blank" class="btn-x btn-default-x btn-lg-x"><i class="fa fa-file-pdf-o fa-fw"></i> <span class="network-name">website</span></a>
+                </li>
+            </ul>
+</th>
+</tr>
+</table>
+
+<table class="entry">
+
+    <tr>
+        <th>
+            <img width="170" src="img/thumbnails/goal_rewards_itr135_cut.jpg" class="rein-paper"/>
+        </th>
+        <th class="entry">
+
+            <a href="pdf/molchanov18_curriculum.pdf">Region  Growing  Curriculum  Generation for  Reinforcement  Learning</a>
+            <br>2018<br>
+            <small class="authors">
+                A. Molchanov, K. Hausman, S. Birchfield, G. Sukhatme 
+            </small>
+            <br>
+            <ul class="list-inline list-inline-x text-left">
+                <li>
+                    <a href="bibtex/molchanov18arxiv.bib" target="_blank" class="btn-x btn-default-x btn-lg-x"><i class="fa fa-file-text-o fa-fw"></i> <span class="network-name">bibtex</span></a>
+                </li>
+                <li>
+                    <a href="pdf/molchanov18_curriculum.pdf" target="_blank" class="btn-x btn-default-x btn-lg-x"><i class="fa fa-file-pdf-o fa-fw"></i> <span class="network-name">pdf</span></a>
+                </li>
+            </ul>
+</th>
+</tr>
+</table>
+
+<table class="entry">
+
+    <tr>
+        <th>
+            <img width="170" src="img/thumbnails/tremblay18icra.jpg" class="rein-paper"/>
+        </th>
+        <th class="entry">
+
+            <a href="pdf/tremblay18icra.pdf">Synthetically Trained Neural Networks <br>for Learning Human-Readable Plans from Real-World Demonstrations</a>
+            <br>International Conference on Robotics and Automation (ICRA), 2018<br>
+            <small class="authors">
+                J. Tremblay, T. To, A. Molchanov, S. Tyree, J. Kautz, S. Birchfield 
+            </small>
+            <br>
+            <ul class="list-inline list-inline-x text-left">
+                <li>
+                    <a href="bibtex/tremblay18icra.bib" target="_blank" class="btn-x btn-default-x btn-lg-x"><i class="fa fa-file-text-o fa-fw"></i> <span class="network-name">bibtex</span></a>
+                </li>
+                <li>
+                    <a href="pdf/tremblay18icra.pdf" target="_blank" class="btn-x btn-default-x btn-lg-x"><i class="fa fa-file-pdf-o fa-fw"></i> <span class="network-name">pdf</span></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/watch?v=B7ZT5oSnRys" target="_blank" class="btn-x btn-default-x btn-lg-x"><i class="fa fa-video-camera fa-fw"></i> <span class="network-name">video</span></a>
+                </li>
+            </ul>
+
+<!-- Blog in russian about this publication: https://habr.com/company/pochtoy/blog/371531/ -->
+</th>
+</tr>
+</table>
+
+<h3>
+    Perception for Manipulation
+</h3>
+<!--
+<p class="text-justify">
+    Here I can add a description: In my research on Robotics Perception ... 
+</p>
+ -->
+
+<table class="entry">
+   <tr>
+       <th>
+           <img width="170" src="img/thumbnails/pocl_kirkland_cut.jpg" class="rein-paper"/>
+       </th>
+       <th class="entry">
+          <a href="pdf/molchanov16iros.pdf">Contact Localization on Grasped Objects using Tactile Sensing</a>
+          <br>International Conference on Intelligent Robots and Systems (IROS), 2016</br>
+          <small class="authors">
+              A. Molchanov, O. Kroemer , Z. Su, G. S. Sukhatme.
+          </small>
+          <br>
+          <ul class="list-inline list-inline-x text-left">
+            <li>
+                <a href="bibtex/molchanov16iros.bib" target="_blank" class="btn-x btn-default-x btn-lg-x"><i class="fa fa-file-text-o fa-fw"></i> <span class="network-name">bibtex</span></a>
+            </li>
+            <li>
+                <a href="pdf/molchanov16iros.pdf" target="_blank" class="btn-x btn-default-x btn-lg-x"><i class="fa fa-file-pdf-o fa-fw"></i> <span class="network-name">pdf</span></a>
+            </li>
+            <li>
+            <a href="http://bicl.robotics.usc.edu/" target="_blank" class="btn-x btn-default-x btn-lg-x"><i class="fa fa-file-pdf-o fa-fw"></i> <span class="network-name">website</span></a>
+            </li>
+        </ul>
+
+    </th>
+</tr>
+</table> 
+
+<table class="entry">
+
+    <tr>
+        <th>
+            <img width="170" src="img/thumbnails/grasping.png" class="rein-paper"/>
+        </th>
+        <th class="entry">
+
+            <a href="pdf/su15hum.pdf">Force Estimation and Slip Detection for Grip Control using BioTac</a><br>International Conference on Humanoid Robotics (Humanoids), 2015<br>
+            <small class="authors">
+                Z. Su, K. Hausman, Y. Chebotar, A. Molchanov, G. Loeb, G. Sukhatme, S. Schaal 
+            </small>
+            <br>
+            <ul class="list-inline list-inline-x text-left">
+                <li>
+                    <a href="bibtex/su15hum.bib" target="_blank" class="btn-x btn-default-x btn-lg-x"><i class="fa fa-file-text-o fa-fw"></i> <span class="network-name">bibtex</span></a>
+                </li>
+                <li>
+                    <a href="pdf/su15hum.pdf" target="_blank" class="btn-x btn-default-x btn-lg-x"><i class="fa fa-file-pdf-o fa-fw"></i> <span class="network-name">pdf</span></a>
+                </li>
+            </ul>
+</th>
+</tr>
+</table>
+
+<h3>
+    Multi-Robot Systems Control
+</h3>
+
+<table class="entry">
+   <tr>
+       <th>
+           <img width="170" src="img/thumbnails/drifter_schematic.png" class="rein-paper"/>
+       </th>
+       <th class="entry">
+          <a href="pdf/molchanov15icra.pdf">Active Drifters: Towards a Practical Multi-Robot System for Ocean Monitoring</a>
+          <br>International Conference on Robotics and Automation (ICRA), 2015</br>
+          <small class="authors">
+              A. Molchanov, A. Breitenmoser, G. Sukhatme
+          </small>
+          <br>
+          <ul class="list-inline list-inline-x text-left">
+            <li>
+                <a href="bibtex/molchanov15icra.bib" target="_blank" class="btn-x btn-default-x btn-lg-x"><i class="fa fa-file-text-o fa-fw"></i> <span class="network-name">bibtex</span></a>
+            </li>
+            <li>
+                <a href="pdf/molchanov15icra.pdf" target="_blank" class="btn-x btn-default-x btn-lg-x"><i class="fa fa-file-pdf-o fa-fw"></i> <span class="network-name">pdf</span></a>
+            </li>
+            <li>
+                <a href="https://youtu.be/60tHq99WVf4" target="_blank" class="btn-x btn-default-x btn-lg-x"><i class="fa fa-video-camera fa-fw"></i> <span class="network-name">video</span></a>
+            </li>
+        </ul>
+
+    </th>
+</tr>
+</table> 
+
+<table class="entry">
+   <tr>
+       <th>
+           <img width="170" src="img/thumbnails/drifter_in_ocean.jpg" class="rein-paper"/>
+       </th>
+       <th class="entry">
+          <a href="pdf/subbaraya16ram.pdf">Circling the Seas: Design of Lagrangian Drifters for Ocean Monitoring</a>
+          <br>IEEE Robotics & Automation Magazine (RAM), 2016</br>
+          <small class="authors">
+              S. Subbaraya, A. Breitenmoser, A. Molchanov, Jorg Muller, Carl Oberg, D. Caron, G. Sukhatme
+          </small>
+          <br>
+          <ul class="list-inline list-inline-x text-left">
+            <li>
+                <a href="bibtex/subbaraya16ram.bib" target="_blank" class="btn-x btn-default-x btn-lg-x"><i class="fa fa-file-text-o fa-fw"></i> <span class="network-name">bibtex</span></a>
+            </li>
+            <li>
+                <a href="pdf/subbaraya16ram.pdf" target="_blank" class="btn-x btn-default-x btn-lg-x"><i class="fa fa-file-pdf-o fa-fw"></i> <span class="network-name">pdf</span></a>
+            </li>
+            <!--             
+            <li>
+                <a href="https://www.youtube.com/watch?v=tkPiTMiGLCA&t=50s" target="_blank" class="btn-x btn-default-x btn-lg-x"><i class="fa fa-video-camera fa-fw"></i> <span class="network-name">video</span></a>
+            </li> -->
+            <!--
+            https://dornsife.usc.edu/assets/sites/378/docs/Caron_pdfs/2016_Subbarya_etal_Drifters.pdf
+            -->
+        </ul>
+
+    </th>
+</tr>
+</table> 
+
+
+<!--
+WORKSHOP PUBLICATIONS:
+
+\textbf{A. Molchanov}, O. Kroemer, Z. Su, G. S. Sukhatme.
+Model-free Contact Localization for Manipulated Objects using Biomimetic Tactile Sensors.
+Humanoids 2016 Workshop on Tactile Sensing for Manipulation, 2016.
+
+Z. Su, K. Hausman, Y. Chebotar, \textbf{A. Molchanov}, G. E. Loeb, G. S. Sukhatme. 
+Slip Classification Using Tangential and Torsional Skin Distortions on a Biomimetic Tactile Sensor.
+BMVA Workshop on Visual, tactile and force sensing for robot manipulation, 2015.
+
+Y. Chebotar, K. Hausman, Z. Su, \textbf{A. Molchanov}, O. Kroemer, G. Sukhatme.
+Bigs: Biotac grasp stability dataset.
+ICRA 2016 Workshop on Grasping and Manipulation Datasets, 2016.
+
+\textbf{A. Molchanov}, A. Breitenmoser, G. S. Sukhatme. 
+Active drifters: Sailing with the ocean currents.
+RSS 2014 Workshop on Autonomous Control, Adaptation, and Learning for Underwater Vehicles, 2014.
+-->
+
+<table class="entry">
+    <tr>
+        <th>
+        </th>
+        <th class="entry workshops">
+        <h4>Workshop Publications</h4>
+
+        <a href="pdf/molchanov16hum.pdf">Model-free Contact Localization for Manipulated Objects using Biomimetic Tactile Sensors</a>
+        <br>Humanoids Workshop on Tactile Sensing for Manipulation, 2016<br>
+        <small class="authors">
+            A. Molchanov, O. Kroemer , Z. Su, G. S. Sukhatme.
+        </small>
+        <a href="http://bicl.robotics.usc.edu/" target="_blank" class="btn-x btn-default-x btn-lg-x"><i class="fa fa-file-pdf-o fa-fw"></i> <span class="network-name">website</span></a>
+        <a href="bibtex/molchanov16hum.bib" target="_blank" class="btn-x btn-default-x btn-lg-x"><i class="fa fa-file-text-o fa-fw"></i> <span class="network-name">bibtex</span></a>
+        <a href="pdf/molchanov16hum.pdf" target="_blank" class="btn-x btn-default-x btn-lg-x"><i class="fa fa-file-pdf-o fa-fw"></i> <span class="network-name">pdf</span></a>
+        <br><br>
+
+        <a href="http://bigs.robotics.usc.edu/">BiGS: BioTac Grasp Stability Dataset</a><br>ICRA Workshop on Grasping and Manipulation Datasets, 2016<br>
+        <small class="authors">
+            Y. Chebotar, K. Hausman, Z. Su, A. Molchanov, O. Kroemer, G. Sukhatme, S. Schaal<br>
+        </small>
+        <a href="http://bigs.robotics.usc.edu/" target="_blank" class="btn-x btn-default-x btn-lg-x"><i class="fa fa-file-pdf-o fa-fw"></i> <span class="network-name">website</span></a>
+        <a href="bibtex/chebotar16-ws-icra.bib" target="_blank" class="btn-x btn-default-x btn-lg-x"><i class="fa fa-file-text-o fa-fw"></i> <span class="network-name">bibtex</span></a>
+        <a href="pdf/chebotar16-ws-icra.pdf" target="_blank" class="btn-x btn-default-x btn-lg-x"><i class="fa fa-file-pdf-o fa-fw"></i> <span class="network-name">pdf</span></a>
+        <br><br>
+
+        <a href="pdf/zhesu15-ws-bmva.pdf">Slip Classification using Tangential and Torsional Skin Distortions on BioTac</a>
+        <br>BMVA Workshop on Visual, Tactile and Force Sensing for Robot Manipulation, 2015<br>
+        <small class="authors">
+            Z. Su, K. Hausman, Y. Chebotar, A. Molchanov, G. Loeb, G. Sukhatme, S. Schaal
+        </small>
+        <a href="bibtex/zhesu15-ws-bmva.bib" target="_blank" class="btn-x btn-default-x btn-lg-x"><i class="fa fa-file-text-o fa-fw"></i> <span class="network-name">bibtex</span></a>
+        <a href="pdf/zhesu15-ws-bmva.pdf" target="_blank" class="btn-x btn-default-x btn-lg-x"><i class="fa fa-file-pdf-o fa-fw"></i> <span class="network-name">pdf</span></a>
+        <br><br>
+
+        <a href="pdf/zhesu15-ws-iros.pdf">Slip Detection and Classification for Grip Control using Multiple Sensory Modalities on BioTac</a><br>IROS Workshop on Multimodal Sensor-Based Robot Control for HRI and Soft Manipulation, 2015<br>
+        <small class="authors">
+            Z. Su, K. Hausman, Y. Chebotar, A. Molchanov, G. Loeb, G. Sukhatme, S. Schaal
+        </small>
+        <a href="bibtex/zhesu15-ws-iros.bib" target="_blank" class="btn-x btn-default-x btn-lg-x"><i class="fa fa-file-text-o fa-fw"></i> <span class="network-name">bibtex</span></a>
+        <a href="pdf/zhesu15-ws-iros.pdf" target="_blank" class="btn-x btn-default-x btn-lg-x"><i class="fa fa-file-pdf-o fa-fw"></i> <span class="network-name">pdf</span></a>
+        <br><br>
+
+        <a href="pdf/molchanov14rss.pdf">Active drifters: Sailing with the Ocean Currents</a>
+        <br>RSS Workshop on Autonomous Control, Adaptation, and Learning for Underwater Vehicles, 2014<br>
+        <small class="authors">
+            A. Molchanov, A. Breitenmoser, G. S. Sukhatme
+        </small>
+        <a href="bibtex/molchanov14rss.bib" target="_blank" class="btn-x btn-default-x btn-lg-x"><i class="fa fa-file-text-o fa-fw"></i> <span class="network-name">bibtex</span></a>
+        <a href="pdf/molchanov14rss.pdf" target="_blank" class="btn-x btn-default-x btn-lg-x"><i class="fa fa-file-pdf-o fa-fw"></i> <span class="network-name">pdf</span></a>
+        <br><br>
+
+    </th>
+</tr>
+</table>
+
+</div>
+</div>
+</section>
+
+<!-- News Section -->
+<section id="industry" class="container content-section text-center">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 text-left">
+            <h2 class="text-center">Applied Research</h2>
+            <br>
+<!--             <ul class="left-text">
+
+            <li>
+                <p> Example of news <a href="https://" target="_blank"> Text of link</a> Text</p>
+            </li>
+
+            </ul>
+            <br><br> -->
+
+        <h3>
+        Autonomous Driving
+        </h3>
+
+        <table class="entry">
+           <tr>
+               <th>
+                   <img width="170" src="img/thumbnails/wet_prediction_cam_mic.jpg" class="rein-paper"/>
+               </th>
+               <th class="entry">
+                  <a href="https://youtu.be/H13jgv55o8w">Low Friction Areas Localization Using Stereo Cameras and Microphones for Autonomous Driving</a>
+                  <br>
+                    <a href="https://www.youtube.com/watch?v=sqMXLjjKQmA">
+                        <img src="img/thumbnails/swerve_ai.png" align="left" style="vertical-align:middle;height:25px;width:25px;"/> 
+                    </a>
+                    <div style='vertical-align:middle; display:inline;'>&#160;Swerve.ai </div>
+                  </br>
+                  <small class="authors">
+                      A. Molchanov, V. Butakov, R. Simpson
+                  </small>
+                  <br>
+                  <ul class="list-inline list-inline-x text-left">
+                    <li>
+                        <a href="https://youtu.be/H13jgv55o8w" target="_blank" class="btn-x btn-default-x btn-lg-x"><i class="fa fa-video-camera fa-fw"></i> <span class="network-name">video</span></a>
+                    </li>
+                </ul>
+
+            </th>
+        </tr>
+        </table>
+
+        <table class="entry">
+           <tr>
+               <th>
+                   <img width="170" src="img/thumbnails/compression_benchmarking_cut.jpg" class="rein-paper"/>
+               </th>
+               <th class="entry">
+                  <a href="pdf/molchanov16erl1.pdf">Benchmarking Neural Network Compression Approaches in Application to Semantic Image Segmentation for Autonomous Driving</a>
+                  <br>
+                    <a href="http://www.vwerl.com/">
+                    <img src="img/thumbnails/erl_logo.png" align="left" style="vertical-align:middle;height:20px;width:40px;"/>
+                    </a>
+                    <div style='vertical-align:middle; display:inline;'>&#160;Volkswagen Electronics Research Lab</div>
+                  </br>
+                  <small class="authors">
+                      A. Molchanov
+                  </small>
+                  <br>
+                  <ul class="list-inline list-inline-x text-left">
+                    <li>
+                        <a href="pdf/molchanov16erl1.pdf" target="_blank" class="btn-x btn-default-x btn-lg-x"><i class="fa fa-file-pdf-o fa-fw"></i> <span class="network-name">part1 pdf</span></a>
+                    </li>
+                    <li>
+                        <a href="pdf/molchanov16erl2.pdf" target="_blank" class="btn-x btn-default-x btn-lg-x"><i class="fa fa-file-pdf-o fa-fw"></i> <span class="network-name">part2 pdf</span></a>
+                    </li>
+                </ul>
+
+            </th>
+        </tr>
+        </table> 
+
+        <h3>
+        Agricultural Robotics
+        </h3>
+
+
+        <table class="entry">
+           <tr>
+               <th>
+                   <img width="170" src="img/thumbnails/letuce_detection.jpg" class="rein-paper"/>
+               </th>
+               <th class="entry">
+                  <a href="https://www.youtube.com/watch?v=yCPe9Sy0TFY">Neural Network based Plant Detector and Classifier for Lettuce Thining Bot</a>
+                  <br>
+                    <a href="http://www.bluerivertechnology.com/">
+                    <img src="img/thumbnails/blueriver_logo.png" align="left" style="vertical-align:middle;height:25px;width:25px;"/>
+                    </a>
+                    <div style='vertical-align:middle; display:inline;'>&#160;Blue River Technology</div>
+                  </br>
+                  <small class="authors">
+                      A. Molchanov, M. Meingast
+                  </small>
+                  <br>
+                  <ul class="list-inline list-inline-x text-left">
+                 <li>
+                    <a href="https://www.youtube.com/watch?v=yCPe9Sy0TFY" target="_blank" class="btn-x btn-default-x btn-lg-x"><i class="fa fa-video-camera fa-fw"></i> <span class="network-name">video</span></a>
+                 </li>
+                </ul>
+            </th>
+        </tr>
+        </table> 
+        </div>
+    </div>
+
+</section>
+
+<section id="blog" class="container content-section text-center">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 text-left">
+            <h2 class="text-center">Blog</h2>
+            <br>
+            <p>
+                Coming soon ...
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<!--<footer>
+<div class="container text-center">
+    <p>
+<a href="#page-top" onclick="setActiveStyleSheet('default'); return false;" class="page-scroll">&mdash;</a>
+<a href="#page-top" onclick="setActiveStyleSheet('white'); return false;" class="page-scroll">&mdash;</a>
+</p>
+</div>
+</footer>-->
+
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="js/jquery.easing.min.js"></script>
+
+<!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ 
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>-->
+
+<!-- Custom Theme JavaScript -->
+<script src="js/grayscale.js"></script>
+
+</body>
+
+<!-- Mirrored from amolchanov86.github.io/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 28 Jan 2020 23:19:36 GMT -->
+</html>
